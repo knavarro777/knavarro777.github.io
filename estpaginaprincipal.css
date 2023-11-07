@@ -1,0 +1,110 @@
+#pie{
+    text-align: center
+}
+h2{
+    /*color:#5D595E;*/
+    margin-left: 25px;
+    color: #F1EFF1;
+}
+p{
+    margin-left: 25px;
+    margin-right: 20px;
+    font-size: large;
+    color:#3A373B;
+    /*color: #D5D3D5;*/
+}
+body {
+    /*text-align: center;*/
+    background: #DA78F0;
+}
+#menu {
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul, ol{
+    list-style: none;
+}
+.nav li a {
+    background-color: #BB33FF;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+.nav li a:hover{
+    background-color: #DA78F0;
+}
+.nav > li {
+    float: left;
+}
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.nav li:hover > ul {
+    display: block;
+}
+.nav li ul li{
+    position: relative;
+}
+.nav li ul li ul {
+    right: -140px;
+    top: 0px;
+
+}
+#imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    height: 100vh;
+}
+#imagen2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-top: 0px;
+}
+#imagenes1, #imagenes2, #imagenes3, #imagenes4, #imagenes5, #imagenes6, #imagenes7, #imagenes8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-top: 0px;
+}
+#imagenesC, #imagenesU, #imagenesI, #imagenesCom, #imagenesDifS, #imagenesProdC, #imagenesUni, #imagenesVa, #imagenesUN, #imagenesfin, #imagenesinfin, #imagenesIg, #imagenesEq, #imagenesHo, #imagenesHe, #imagenesEj, #imagenesTabla, #imagenesTablaN, #imagenesTablaD, #imagenesTablaC, #imagenesTablaCon, #imagenesTablaB{
+    margin-left: 25px;
+}
+.tabla{
+    border-collapse: collapse; 
+    margin: 25px 0; 
+    font-size: 1em; 
+    font-family: sans-serif; 
+    min-width: 450px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.tabla thead tr { 
+    background-color: #980081; 
+    color: #ffffff; 
+    text-align: middle; 
+}
+.tabla th, .styled-table td { 
+    padding: 12px 15px; 
+}
+.tabla tbody tr { 
+    border-bottom: 1px solid #dddddd; 
+} 
+.tabla tbody tr:nth-of-type(even) { 
+    background-color: #f3f3f3; 
+} 
+
+
+
+
+
+
